@@ -1,0 +1,56 @@
+#odiv{
+   height: 200px;
+   width: 70px;
+   border: 2px solid black;
+   background-color: grey;
+}
+.idivr{
+   height: 50px;
+   width: 50px;
+   border: 2px solid black;
+   margin: 10px;
+   border-radius: 50%;
+   background-color: red;
+}
+.idivy{
+   height: 50px;
+   width: 50px;
+   border: 2px solid black;
+   margin: 10px;
+   border-radius: 50%;
+   background-color: yellow;
+}
+.idivg{
+   height: 50px;
+   width: 50px;
+   border: 2px solid black;
+   margin: 10px;
+   border-radius: 50%;
+   background-color: green;
+}
+
+/* giving some extra tweaks :) */
+.idivr:hover{
+   height: 50px;
+   width: 50px;
+   border: 2px solid red;
+   margin: 10px;
+   border-radius: 50%;
+   background-color: red;
+}
+.idivy:hover{
+   height: 50px;
+   width: 50px;
+   border: 2px solid yellow;
+   margin: 10px;
+   border-radius: 50%;
+   background-color: yellow;
+}
+.idivg:hover{
+   height: 50px;
+   width: 50px;
+   border: 2px solid green;
+   margin: 10px;
+   border-radius: 50%;
+   background-color: green;
+}

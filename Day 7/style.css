@@ -1,4 +1,54 @@
 div{
    height: 250px;
    width: 550px;
+   background-color: bisque;
+
+   /* border  */
+   border-width: 15px;
+   border-style: double;
+   border-color: blue;
+   /* border short-hand */
+   /* border: 5px dotted aquamarine; */
+
+   /* we can control individual side of the border  */
+   /* border-left: ;
+   border-right: ; */
+   border-bottom: 7px dashed pink;
+   border-top: 3px solid green;
+
+   /* we can you border radius to make border cornor rounded */
+   border-radius: 14px;
+   /* we can individualy control this too  */
+
+   /* margin */
+   margin: 50px;
+   margin-bottom: 30px;
+}
+button{
+   border: 5px solid plum;
+   padding: 7px 15px 5px 20px;
+   border-radius: 5px;
+   
+   /* padding  */
+   padding: 30px;
+
+   /* for all sides */
+   padding: 50px;
+
+   /* top & bottom | left & right */
+   padding: 40px 20px ;
+
+   /* top | left & right | bottom  */
+   padding: 30px 50px 10px;
+
+   /* top | right | bottom | left */
+   padding: 10px 20px 30px 40px;
+}
+
+/* display property */
+span{
+   display: block;
+}
+p{
+   display: inline;
 }
