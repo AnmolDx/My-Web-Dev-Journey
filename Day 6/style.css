@@ -1,0 +1,101 @@
+*{
+   font-family: monospace;
+}
+/* you can give same property to other by seperate them with comma */
+h1, h3{ 
+   color: brown;
+}
+
+/* id selector */
+#login{
+   background-color: white;
+}
+#signup{
+   background-color: brown;
+   color: white;
+}
+
+/* class selector */
+.upvote{
+   background-color: green;
+   color: white;
+}
+
+/* descendant selector */
+.post a{/* it means all anchor tag which is inside paragraph tag  */
+   background-color: yellow;
+}
+/* <nav>
+      <p> </p>
+      <ul>
+         <li><a href=""></a></li>
+      </ul>
+   </nav> */
+nav ul li a{
+   color: pink;
+}
+
+/* adjacent sibling combinator */
+/* <p></p>
+   <h3></h3> immediatly after  */
+p + h3{
+   text-decoration: underline;
+}
+.upvote + button{
+   background-color: cadetblue;
+}
+
+/* child combinator */
+/* <span> it should be direct child otherwise itll throw error
+      <button>
+      </button>
+</span> */
+div > input{
+   background-color: rgb(106, 10, 141);
+}
+
+/* Attribute selector  */
+input[type="text"]{
+   color: green;
+}
+input[type="password"]{
+   color: red;
+}
+
+/* pseudo class */
+button:hover{
+   background-color: black;
+   color: white;
+}
+h3:hover{
+   text-decoration: dotted;
+}
+button:active{
+   background-color: pink;
+}
+div:hover{
+   background-color: blue;
+}
+input[type="radio"]:checked + label{
+   color: red;
+   font-weight: bold;
+}
+div:nth-of-type(2){
+   background-color: rgb(234, 135, 15);
+}
+
+/* pseudo element  */
+h1::first-letter{
+   color: green;
+}
+p::selection{
+   background-color: yellow;
+}
+
+h3{
+   background-color: aqua;
+}
+h3{
+   background-color: azure;
+}
+/* according to cascading rule last one will apply */

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Checkbox</title>
+</head>
+<body>
+   <form action="/server">
+      <label for="terms">
+         i accept the term and condition
+         <input type="checkbox" name="term_accepted" id="terms" checked>
+         <button type="submit">submit</button>
+<!-- if the box is check it will pass ON on the action 
+      in this example url will be /server?term_accepted=on -->
+      </label>
+   </form>
+</body>
+</html>

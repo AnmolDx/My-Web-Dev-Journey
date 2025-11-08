@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Assigment</title>
+</head>
+<body>
+   <!-- question 1 -->
+   <table border="">
+      <caption>Student information</caption>
+      <tr>
+         <th rowspan="6">Info</th>
+         <th rowspan="2">Name</th>
+         <th colspan="2">Address</th>
+      </tr>
+      <tr>
+         <th>City</th>
+         <th>House</th>
+      </tr>
+      <tr>
+         <td>A</td>
+         <td>Delhi</td>
+         <td>1</td>
+      </tr>
+      <tr>
+         <td>B</td>
+         <td>Kolkata</td>
+         <td>2</td>
+      </tr>
+      <tr>
+         <td>C</td>
+         <td>Mumbai</td>
+         <td>3</td>
+      </tr>
+      <tr>
+         <td>D</td>
+         <td>Pune</td>
+         <td>4</td>
+      </tr>
+   </table>
+<hr>
+
+   <!-- question 2 -->
+   <form action="/server1">
+      <label for="name">Name</label>
+      <input type="text" id="name">
+      <div>
+         <label for="gender">Sex</label>
+         <input type="radio" value="m" id="male" name="gender">
+         <label for="male">Male</label>
+         <input type="radio" value="f" id="female" name="gender">
+         <label for="female">Female</label>
+      </div>
+      <div>
+         <label for="country">Country</label>
+         <select name="country" id="country">
+            <option>Select an option</option>
+            <option value="ind">India</option>
+            <option value="us">United States Of America</option>
+         </select>
+      </div>
+      <div>
+         <label for="msg">Message</label>
+         <textarea name="message" id="msg" rows="7" cols="45"></textarea>
+      </div>
+      <div>
+         <input type="checkbox" id="sub">
+         <label for="sub">Subscribe?</label>
+      </div>
+      <div>
+         <button type="submit">Submit</button>
+      </div>
+   </form>
+   <hr>
+
+   <!-- question 3 -->
+    <h3>Feedback form</h3>
+    <form action="/server2">
+      <div>
+         <label for="name2">Name: </label>
+         <input type="text" placeholder="Write your name" id="name2">
+      </div>
+      <div>
+         <label for="email">Email: </label>
+         <input type="text" placeholder="Write your Email" id="email">
+      </div>
+      <div>
+         <label for="msg1">Message</label>
+         <textarea name="msg1" id="msg1" cols="45" rows="8"></textarea>
+      </div>
+      <div>
+         <label for="rate">Rate us out of 5:</label>
+         <br>
+         <input type="radio" value="1" id="1" name="rate">
+         <label for="1">1</label>
+         <br>
+         <input type="radio" value="2" id="2" name="rate">
+         <label for="2">2</label>
+         <br>
+         <input type="radio" value="3" id="3" name="rate">
+         <label for="3">3</label>
+         <br>
+         <input type="radio" value="4" id="4" name="rate">
+         <label for="4">4</label>
+         <br>
+         <input type="radio" value="5" id="5" name="rate">
+         <label for="5">5</label>
+      </div>
+      <div>
+         <button type="submit">Send your Message!</button>
+      </div>
+    </form>
+</body>
+</html>

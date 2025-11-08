@@ -1,0 +1,10 @@
+p{
+   font-weight: 900; 
+   /* normal-400, bold-700 */
+}
+h3{
+   text-decoration: overline dotted red;
+}
+a{
+   text-decoration: none;
+}
