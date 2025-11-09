@@ -1,0 +1,8 @@
+/* box shadow shorthand */
+/* box-shadow: x offset | y offset | blur radius | color; */
+div{
+   height: 200px;
+   width: 200px;
+   background-color: green;
+   box-shadow: 8px 5px 10px red;
+}

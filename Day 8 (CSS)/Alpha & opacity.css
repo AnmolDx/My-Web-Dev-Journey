@@ -1,0 +1,15 @@
+div{
+   height: 200px;
+   width: 200px;
+   background-color: rgba(255, 0, 0, 0.5);
+}
+#div2{   
+      height: 200px;
+      width: 200px;
+      background-color: rgba(255, 0, 0, 1);
+      
+}
+#opacity{
+   opacity: 0.2;
+   background-color: lime;
+}

@@ -1,0 +1,40 @@
+div{
+   height: 100px;
+   width: 200px;
+   border: 2px solid lime;
+   margin: 10px auto;
+}
+div{
+   background-color: black;
+}
+div:nth-of-type(2n){
+   background-color: pink;
+}
+div:nth-of-type(3){
+   background-color: red;
+}
+
+/* rotate transformation */
+#one{
+   transform: rotate(45deg);
+}
+
+/* scale transformation */
+#two{
+   transform: scale(0.7);
+}
+
+/* translate transformation */
+#three{
+   transform: translate(50px,-10px);
+}
+
+/* skew transformation */
+#four{
+   transform: skew(30deg);
+}
+
+/* these all can be done in 1 transform property */
+#five{
+   transform: rotate(20deg) translate(100px);
+}

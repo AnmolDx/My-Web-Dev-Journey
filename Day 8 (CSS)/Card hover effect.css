@@ -1,0 +1,15 @@
+div{
+   height: 150px;
+   width: 150px;
+   background-color: rgb(81, 135, 183);
+   display: inline-block;
+   border-radius: 5px;
+   margin: 10px;
+   text-align: center ;
+   box-shadow: 0px 5px 6px ;
+   transition: 1s;
+}
+div:hover{
+   box-shadow: 0px 10px 12px ;
+
+}
