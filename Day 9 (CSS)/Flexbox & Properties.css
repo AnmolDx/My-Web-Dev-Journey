@@ -1,0 +1,32 @@
+#mainbox{
+   border: 2px dashed black;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   /* flex-wrap: wrap; */
+   /* align-items: center ; */
+   align-content: center;
+   height: 300px;
+}
+.box{
+   width: 50px;
+   height: 50px;
+   background-color: blue;
+   margin: 5px;
+   text-align: center;
+}
+#imposter{
+   /* align-self: flex-end; */
+   /* flex-basis: 10px;  */
+   /*flex-grow: 1; takes all the space that is left/ */
+}
+
+/* Flex shorthand
+flex-grow | flex-shrink | flex-basis
+flex: 2 2 100px;
+flex-grow | flex-basis
+flex: 2 100px;
+flex-grow (unitless)
+flex: 2;
+flew-basis 
+flex: 100px;*/
