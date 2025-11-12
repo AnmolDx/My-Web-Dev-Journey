@@ -1,0 +1,35 @@
+#container {
+   border: 2px solid black;
+   display: grid;
+
+   grid-template-columns: [firstcol]120px [secondcol]100px 500px;
+   /* we can also give names of grid  */
+   /* grid-template-rows: [firstrow]80px [secondrow]100px 70px; */
+
+   grid-template-columns: repeat(3, 1fr);
+   /* we can use repeat function to make grid */
+   /* fr is fraction flexible length unit */
+
+   gap: 5px; 
+   /* adds space between grids you can also give space indivdually */
+   
+   grid-auto-rows: 150px;
+   /* add size to row  */
+
+   grid-auto-rows: minmax(150px, auto);
+   /* without minmax if we add more content in grid it will overflow to avoid this we use minmax  */
+
+}
+
+.items {
+   /* height: 50px; */
+   /* width: 50px; */
+   border: 2px solid red;
+}
+
+/* ill suggest to take a look from this site cuz this topic is complex
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids */
+
+/* shorthand of grid column & row  */
+/* grid-column: grid-column-start | grid-column-end;
+   grid-row: grid-row-start | grid-row-end; */
