@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Scope</title>
+</head>
+<body>
+   
+   <Script>
+      let num = 69; // Global Scope-it is different from the num we describe inside function. and it can use anywhere in the code
+      function sum(a,b){
+         let num = a + b; //num will only accessable inside this function
+         console.log(num)
+      }
+
+      sum(4,8)
+      console.log(num)
+
+      {
+         let a = 5 // block scope
+      }
+      // console.log(a)// it will give error cuz a is declared inside block
+
+      function outerFunc(){
+         let x = 5;
+         let y = 6;
+         function innerFunc(){
+            console.log(x);
+         }
+         innerFunc()
+      }
+      console.log(outerFunc())
+   </Script>
+</body>
+</html>
