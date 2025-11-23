@@ -73,3 +73,43 @@ let ul = document.querySelector("ul")
 console.dir(ul.children[1].previousElementSibling)
 console.dir(ul.children[1].nextElementSibling)
 
+//Adding Element
+let newP = document.createElement("p")
+newP.innerText = "this is new Para" //it doesnt show on page
+
+//to show it on page we have to append it
+let body = document.querySelector("body")
+body.appendChild(newP)
+box.appendChild(newP)
+
+newP.append("this is some append text") //we can use this to add new text, string, and elements (adds something in last)
+newP.prepend("this is some prepend text") //it is like append but add things in start of the element
+
+// newP.insertAdjacentElement(postion, element) positions - beforebegin, afterbegin, beforeend, afterend
+
+//Remove Elements
+// body.removeChild(newP)
+
+//Practice Qs
+let para1 = document.createElement("p")
+para1.innerText ="hey i am red"
+body.append(para1)
+para1.classList.add('red')
+
+let h3 = document.createElement("h3")
+h3.innerText = "i am blue h3"
+body.append(h3)
+h3.classList.add('blue')
+
+let div = document.createElement("div")
+let head1 = document.createElement("h1")
+let p1 = document.createElement("p")
+div.classList.add('divcl')
+head1.innerText = "i am in a div"
+p1.innerText = "ME TOO!"
+div.appendChild(head1)
+div.appendChild(p1)
+body.append(div)
+
+
+
