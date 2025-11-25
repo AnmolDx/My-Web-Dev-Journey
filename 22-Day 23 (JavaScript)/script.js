@@ -51,15 +51,30 @@ inp.addEventListener("keydown", function(event){
 //Form Events
 let form = document.querySelector("form")
 
-form.addEventListener("submit", function(event){
+form.addEventListener("submit", function (event) {
    event.preventDefault();
    alert("form submitted")
 
-   let input = document.querySelector(".input1")
-   let pass = document.querySelector(".pass")
-   console.dir(input)
-   console.log(input.value)
-   console.log(pass.value)
+   // let input = document.querySelector(".input1")
+   // let pass = document.querySelector(".pass")
+   // console.dir(input)
+   // console.log(input.value)
+   // console.log(pass.value)
 
 })
+
+//change event
+let user = document.querySelector("#user")
+
+user.addEventListener("change", function () {
+   console.log("change event")
+   console.log("final value = ", this.value)
+})
+
+//input event - tracks small changes
+user.addEventListener("input", function () {
+   console.log("input event")
+   console.log("final value = ", this.value)
+})
+
 
