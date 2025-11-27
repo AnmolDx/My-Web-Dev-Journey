@@ -15,13 +15,22 @@ btn.addEventListener("click", function(){
 
 })
 
-let delbtns = document.querySelectorAll(".delete")
-for(del of delbtns){
-   del.addEventListener("click", function(){
-      let par = del.parentElement;
-      console.log(par)
-      par.remove()
-   })
+ul.addEventListener("click", function (event){
+   if (event.target.nodeName == "BUTTON"){
+      let listItem = event.target.parentElement
+      listItem.remove()
+      
+   }
+})
 
 
-}
+// let delbtns = document.querySelectorAll(".delete")
+// for(del of delbtns){
+//    del.addEventListener("click", function(){
+//       let par = del.parentElement;
+//       console.log(par)
+//       par.remove()
+//    })
+
+
+// }
