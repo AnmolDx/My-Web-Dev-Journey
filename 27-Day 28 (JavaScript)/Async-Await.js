@@ -10,7 +10,7 @@ async function main() {
    console.log("loading modules");
    console.log("Do something else");
    console.log("load data");
-   let data = await getData()
+   let data = await getData() //await will always used inside async function
    console.log(data);
    console.log("task2")
    
