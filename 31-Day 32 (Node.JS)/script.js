@@ -9,15 +9,17 @@
 // console.log(process.argv);
 
 //we can take some arguments/parameters using process.argv 
-let arg = process.argv
-for(let i = 2; i < arg.length; i++){
-   console.log("hello to", arg[i])
-}
+// let arg = process.argv
+// for(let i = 2; i < arg.length; i++){
+//    console.log("hello to", arg[i])
+// }
 
-const math = require("./math")
-console.log(math);
-console.log(math.sum(3,4));
-console.log(math.mul(3,5));
-console.log(math.PI);
+// const math = require("./math")
+// console.log(math);
+// console.log(math.sum(3,4));
+// console.log(math.mul(3,5));
+// console.log(math.PI);
 
-
+// now it require fruits directory 
+const info = require("./fruits")
+console.log(info)
