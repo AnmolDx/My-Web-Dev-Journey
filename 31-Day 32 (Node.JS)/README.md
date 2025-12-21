@@ -24,3 +24,10 @@ package-lock.json - it is a record of the exact version of every installed depen
 package.json - the package.json file contains desciptive and functional metadata about a project, such as a name, verson and dependencies. 
 if the node_modules file got deleted we can get back with the help of package.json by type "npm install" on the terminal(of current node directory) it will automatic retrieve the deleted files
 it is not a good practice to push node_modules into github
+
+# require vs import
+import {something} from "./filename"
+const req = require("./filename")
+
+require is old, import is new
+we can't selectively load only the pieces we need with require but with import, we can selectively load only the pieces we need, which can save memory.

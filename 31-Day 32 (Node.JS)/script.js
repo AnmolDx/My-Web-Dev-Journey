@@ -21,5 +21,9 @@
 // console.log(math.PI);
 
 // now it require fruits directory 
-const info = require("./fruits")
-console.log(info)
+// const info = require("./fruits")
+// console.log(info)
+
+//using import method
+import {sum, PI} from "./math.js" //before importing we must have a package.json file with {type: module} in it.
+console.log(sum(2,4));

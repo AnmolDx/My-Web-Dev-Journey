@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "it is not a language, library or framework\r JS runtime Environment\r it is used for server side programming.",
+  "license": "ISC",
+  "author": "Anmol",
+  "type": "module",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
