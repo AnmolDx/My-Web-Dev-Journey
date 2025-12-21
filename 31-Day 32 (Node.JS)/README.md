@@ -1,0 +1,9 @@
+it is not a language, library or framework
+JS runtime Environment
+it is used for server side programming.
+
+REPL - Read Evaluate Print Loop
+
+# Process in Node
+process: this object provides information about, and control over, the current Node.js process.
+process.argv : returns an array containing the command-line arguments passed when Node.js process was launched.
